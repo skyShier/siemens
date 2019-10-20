@@ -1,0 +1,131 @@
+/* 标题栏内容的样式 */
+#TablePage .pageName{
+    font-size: 1.6vw;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid rgb(226, 226, 226);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+#TablePage table{
+    margin-top: 15px;
+}
+/* selectTime */
+#TablePage .ant-calendar-picker{
+    margin-right: 20px;
+}
+/* checkbox */
+#TablePage  .ant-select{
+    width: 9vw !important;
+}
+#TablePage .ant-select-selection:focus{
+    border: 1px solid #d9d9d9;
+  }
+/* search */
+#TablePage .ant-btn-primary{
+    margin-left: 20px;
+}
+#TablePage .ant-btn{
+    font-size: 1vw;
+}
+.App{
+    text-align: left;
+} 
+/* Echars */
+#TablePage #echars1,#TablePage #echars2{
+    min-width: 500px;
+    height: 48.8vh;
+}
+#TablePage .up{
+    height:48.8vh;
+    box-shadow:0px 0px 3px 0px rgba(0,0,0,0.05);
+    border:1px solid rgba(235,240,245,1);
+    margin-top: 14px;
+}
+#TablePage .ant-tabs-bar{
+    margin: 0,
+}
+#TablePage .down{
+    width: 100%;
+    height:15vh;
+    display: flex;
+    margin-top: 34px;
+    /* overflow-y: scroll; */
+}
+#TablePage .down1{
+    width: 11.7vw;
+    height: 100%;
+    margin-left: 5.5vw;
+}
+#TablePage .down1 .ant-select-selection{
+    width: 11.7vw;
+    height: 4vh;
+    line-height: 4vh;
+    border:1px solid #d9d9d9;
+}
+#TablePage .ant-select-selection__rendered{
+    line-height: 4vh;
+    margin-left: 10px;
+}
+/* #TablePage .ant-select-arrow{
+    position: relative;
+    top:0;
+    right: 0 !important;
+} */
+#TablePage .down2{
+    width: 22vw;
+    height: 100%;
+    margin-left: 31px;
+}
+#TablePage .down2box1,#TablePage .down3box1{
+    display: flex;
+    margin-bottom: 1.2vh;
+}
+#TablePage .aaa .ant-select-selection{
+    width: 7vw;
+    height: 4vh;
+    line-height: 4vh;
+    margin-left: 6px;
+    border:1px solid #d9d9d9;
+}
+#TablePage .bbb .ant-select-selection{
+    width:11.7vw;
+    height: 4vh;
+    line-height: 4vh;
+    border:1px solid #d9d9d9;
+}
+#TablePage .down3{
+    width: 22vw;
+    height: 100%;
+    margin-left: 31px;
+}
+#TablePage .ant-tabs-nav-scroll,#TablePage .ant-tabs-nav-container{
+    height:4vh;
+}
+#TablePage .ant-tabs-tab{
+    line-height: 4vh;
+}
+#TablePage .link4{
+    width: 100%;
+    padding: 8px 0;
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(55,75,90,1);
+}
+
+#aaa .ant-select-arrow{
+    position: absolute;
+    top: 0.7vh;
+    left: 5.2vw !important;
+}
+#bbb .ant-select-arrow{
+    position: absolute;
+    top: 0.7vh;
+    left: 9.8vw !important;
+}
+
+#bbb .ant-select-selection-selected-value{
+  width: 9vw !important;
+}
+

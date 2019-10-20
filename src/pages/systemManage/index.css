@@ -1,0 +1,16 @@
+/* 标题栏内容的样式 */
+#systemManage .pageName{
+    font-size: 1.6vw;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid rgb(226, 226, 226);
+    padding-bottom: 15px;
+}
+#systemManage .link5{
+    width: 100%;
+    padding: 8px 0;
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(55,75,90,1);
+}

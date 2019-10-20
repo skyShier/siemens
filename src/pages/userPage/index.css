@@ -1,0 +1,64 @@
+/* 标题栏内容的样式 */
+#UserPage .pageName{
+    font-size: 1.6vw;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid rgb(226, 226, 226);
+    padding-bottom: 15px;
+}
+/* 头部的搜索和新增 */
+/* search */
+#UserPage .search{
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    display: flex;
+    position: relative;
+    left: -32px;
+    cursor: pointer;
+}
+#UserPage .userHead{
+    width: 100%;
+    height: 32px;
+    margin: 0 0 1vw 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+}
+#UserPage .userText{
+    font-size:1.1vw;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(35,55,70,1);
+    line-height:20px;
+}
+#UserPage .ant-row-flex-center{
+    justify-content: flex-start;
+}
+#UserPage .ant-row-flex{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: 16px;
+}
+#UserPage .ant-btn .ant-btn-primary span{
+    font-size: 1.1vw;
+}
+#UserPage .delete{
+    color:#006486;
+    cursor: pointer;
+}
+.modalus .right{
+    text-align: right;
+    line-height: 32px;
+}
+#UserPage .link3{
+    width: 100%;
+    padding: 8px 0;
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(55,75,90,1);
+}

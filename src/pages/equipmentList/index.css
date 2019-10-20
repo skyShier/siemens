@@ -1,0 +1,68 @@
+/* 标题栏内容的样式 */
+#EquipmentList .pageName{
+    font-size: 1.6vw;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid rgb(226, 226, 226);
+    padding-bottom: 15px;
+}
+/* 头部的搜索和新增 */
+#EquipmentList .userHead{
+    width: 100%;
+    height: 32px;
+    margin: 0 0 1vw 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+}
+#EquipmentList .userText{
+    font-size:1.1vw;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(35,55,70,1);
+    line-height:20px;
+}
+#EquipmentList .ant-row-flex-center{
+    justify-content: flex-start;
+}
+#EquipmentList .ant-row-flex{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: 16px;
+}
+#EquipmentList .ant-btn .ant-btn-primary span{
+    font-size: 1.1vw;
+}
+#EquipmentList .aaa{
+    width: 310px;
+    height: 100px;
+    margin: 16px auto 0 auto;
+    background: red;
+}
+.modalListeq .right{
+    text-align: right;
+    margin-right: 10px;
+    line-height: 32px;
+}
+.modalListeq .right:before{
+    content:"*";
+    color: #E13C43;
+}
+#EquipmentList .delete{
+    color:#006486;
+    cursor: pointer;
+}
+#EquipmentList .point{
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+}
+#EquipmentList .link21{
+    width: 100%;
+    padding: 8px 0;
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(55,75,90,1);
+}

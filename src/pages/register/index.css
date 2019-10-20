@@ -1,0 +1,90 @@
+#reg{
+    height: 100vh;
+    background: url(../../img/back.png) no-repeat;
+    background-size:100%;
+}
+/* reg */
+#reg .regBox{
+    background: #fff;
+    color: #fff;
+    width:31.1vw;
+    height:69.6vh;
+    font-size: 1.1vw;
+    margin-top: 15.2vh;
+    padding-top: 1.28vh;
+    box-sizing: border-box;
+    background:linear-gradient(270deg,rgba(0,140,185,1) 0%,
+            rgba(3,150,195,1) 14%,rgba(68,174,174,1) 62%,
+            rgba(74,189,189,1) 100%);
+}
+/* reg  --userName-Width/Height */
+#reg .regText{
+    line-height: 4.48vh;
+    text-align: right;
+}
+#reg .register{
+    float: right;
+    color: #233746;
+    font-size:1vw;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    cursor: pointer;
+}
+#reg .ant-checkbox-wrapper{
+    margin-left: 25%;
+    margin-top: -25px;
+}
+#reg .ant-btn{/* button样式 */
+    width:10vw;
+    height:4.48vh;
+    font-size:1vw;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    background:rgba(250,165,10,1);
+    margin-top: 12px;
+    border-radius: 0;
+    border: none;
+}
+#reg .reg{ 
+    width: 100%;
+    margin: 0;
+}
+#reg .ant-btn-primary{
+    text-shadow:none;
+    box-shadow:none;
+    border-color: #faa50a;
+}
+#reg .backLogin{
+    /* width:70px; */
+    height:100%;
+    font-size:1vw;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(35,55,70,1);
+    float: right;
+    margin-top: 20px;
+    text-align: right;
+    cursor: pointer;
+}
+#reg .ant-input-affix-wrapper, #reg .ant-input{
+    height: 3.75vh;
+}
+/* footer-home页面的通用样式 */
+
+
+#reg .errorInfo{
+    position: absolute;
+    line-height: 3.75vh;
+    top: 0;
+    right: 10px;
+    color:red;
+    margin-left:5px;
+    font-size:12px;
+}
+.errorEma,.errorName,.errorComp,.errorComd,.errorPho,.errorPas,.errorPasa{
+    border: 1px solid red !important;
+}
+.ant-input:focus{
+    box-shadow: none;
+}

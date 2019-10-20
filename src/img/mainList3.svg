@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="39px" viewBox="0 0 40 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-1208.000000, -341.000000)" fill="#FFFFFF">
+            <g id="数量" transform="translate(1054.000000, 100.000000)">
+                <g id="在线设备" transform="translate(0.000000, 216.000000)">
+                    <g id="Group-8" transform="translate(154.000000, 25.000000)">
+                        <path d="M10.667,13.3337 L29.333,13.3337 L29.333,0.0007 L10.667,0.0007 L10.667,13.3337 Z M12.667,11.3337 L27.333,11.3337 L27.333,1.9997 L12.667,1.9997 L12.667,11.3337 Z" id="Fill-1"></path>
+                        <path d="M0,38.6667 L18.667,38.6667 L18.667,25.3337 L0,25.3337 L0,38.6667 Z M2,36.6667 L16.666,36.6667 L16.666,27.3327 L2,27.3327 L2,36.6667 Z" id="Fill-2"></path>
+                        <polygon id="Fill-3" points="29.667 25.3327 31.667 25.3327 31.667 19.9997 29.667 19.9997"></polygon>
+                        <polygon id="Fill-4" points="8.333 25.3327 10.333 25.3327 10.333 19.9997 8.333 19.9997"></polygon>
+                        <polygon id="Fill-5" points="19 18.6667 21 18.6667 21 13.3337 19 13.3337"></polygon>
+                        <polygon id="Fill-6" points="0 19.9997 40 19.9997 40 17.9997 0 17.9997"></polygon>
+                        <path d="M21.334,38.6667 L40,38.6667 L40,25.3337 L21.334,25.3337 L21.334,38.6667 Z M23.333,36.6667 L37.999,36.6667 L37.999,27.3327 L23.333,27.3327 L23.333,36.6667 Z" id="Fill-7"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

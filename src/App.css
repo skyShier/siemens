@@ -1,0 +1,46 @@
+@import '~antd/dist/antd.less';
+@import "theme.less";
+@font-face {
+  font-family: 'PingFangSC-Regular';   /*字体名称*/
+  src: url('pingfang.ttf');       /*字体源文件*/
+  font-family: 'Siemens Sans Global';   /*字体名称*/
+  src: url('Siemens_Global_Bold_V2_6.ttf');       /*字体源文件*/
+  font-family: 'Siemens Sans Global';   /*字体名称*/
+  src: url('Siemens_Global_Roman_V2_6.ttf');       /*字体源文件*/
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ant-menu-item-active:hover,.ant-menu-submenu-active:hover{
+  background:#73b4c8;
+}

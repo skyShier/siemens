@@ -1,0 +1,91 @@
+#myhome .firstBox{
+    width: 100%;
+    height:calc(100vh - 12vw);
+    display: flex;
+    position: relative;
+}
+/* 地图 */
+#myhome #allmap{
+    position: relative;
+    width: 65.6vw;
+    height: 100%;
+    background: #ccc;
+}
+.anchorBL{ /*Map去版权*/
+    display:none;
+} 
+/* 全屏 */
+.mapAll{
+    width:36px;
+    height:36px;
+    position: absolute;
+    top: 16px;
+    right:calc(16.4vw + 37px);
+    z-index: 999;
+    cursor: pointer;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 1px 2px 0px rgba(0,0,0,0.5);
+}
+/* 模块配置 */
+#myhome .columnBox{
+    width: 16.4vw;
+    height: 39.2vw;
+    margin-left: 16px;
+    position: relative;
+}
+#myhome .selectIcon{
+    width: 1.6vw;
+    height: 1.6vw;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+#myhome .box{
+    width:100%;
+    height:11.2vh;
+    margin-bottom:2.24vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#myhome .box:nth-of-type(1){
+    background:rgba(235,171,110,1);
+}
+#myhome .box:nth-of-type(2){
+    background:rgba(137,182,221,1);
+}
+#myhome .box:nth-of-type(3){
+    background:rgba(162,191,237,1);
+}
+#myhome .box:nth-of-type(4){
+    background:rgba(232,163,153,1);
+}
+#myhome .box:nth-of-type(5){
+    background:rgba(133,196,225,1);
+}
+#myhome .box:nth-of-type(6){
+    background:rgba(139,166,191,1);
+    margin-bottom:0;
+}
+.box>div>div:nth-of-type(1){
+    width: 8.7vw;
+    font-size:16px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    margin:0;
+}
+.box>div>div:nth-of-type(2){
+    font-size:26px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+}
+#myhome .link1{
+    width: 100%;
+    padding: 8px 0;
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(55,75,90,1);
+}

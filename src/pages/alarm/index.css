@@ -1,0 +1,49 @@
+/* 标题栏内容的样式 */
+#Alarm .pageName{
+    font-size: 1.6vw;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid rgb(226, 226, 226);
+    padding-bottom: 15px;
+}
+/* 头部的搜索和新增 */
+#Alarm .userHead{
+    width: 100%;
+    height: 32px;
+    margin: 0 0 1vw 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+}
+#Alarm .userText{
+    font-size:1.1vw;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(35,55,70,1);
+    line-height:20px;
+}
+#Alarm .ant-row-flex-center{
+    justify-content: flex-start;
+}
+#Alarm .ant-row-flex{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: 16px;
+}
+#Alarm .ant-btn .ant-btn-primary span{
+    font-size: 1.1vw;
+}
+#Alarm .link6{
+    width: 100%;
+    padding: 8px 0;
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(55,75,90,1);
+}
+#Alarm .point{
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+}

@@ -1,0 +1,48 @@
+#userInfo .userBox{
+    width: 80%;
+    margin: 0 0 0 62px;
+}
+#userInfo .ant-row{
+    margin-bottom: 15px;
+    font-size:14px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(35,55,70,1);
+    line-height:4vh;
+}
+#userInfo .ant-row:nth-of-type(1){
+    margin-top: 20px;
+}
+#userInfo .userInput,#userInfo .userInputBtn{
+    display: none;
+    position: relative;
+}
+#userInfo .userInput{
+    width: 240px;
+}
+#userInfo .userList span{
+    float: left;
+}
+#userInfo .link7{
+    width: 100%;
+    padding: 8px 0;
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(55,75,90,1);
+}
+#userInfo .error{
+    position: absolute ;
+    line-height: 32px;
+    top: 0;
+    right: 10px;
+    color:red;
+    margin-left:5px;
+    font-size:12px;
+}
+.errorEma{
+    border: 1px solid red !important;
+}
+.ant-input:focus{
+    box-shadow: none;
+}

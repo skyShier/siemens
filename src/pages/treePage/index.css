@@ -1,0 +1,52 @@
+#TreePage{
+    /* display: flex; */
+}
+/* Tree-style */
+#TreePage .ant-tree{
+    min-width: 172px;
+    border-right: 1px solid rgba(232,232,232,1);
+    padding-right: 12px; 
+}
+#TreePage .ant-tree li ul {
+    padding: 0 0 0 10px;
+}
+#TreePage .ant-tree li .ant-tree-node-content-wrapper{
+    padding: 0;
+}
+/* 右边内容区域-style */
+#TreePage .contextBox{
+    width: 70vw;
+    height:calc(100vh - 12vw);
+    /* background: #ccc; */
+    margin-left: 20px;
+}
+#TreePage .conUp{
+    width: 85%;
+    margin: 0 auto;
+    font-size:1vw;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(35,55,70,1);
+    line-height:20px;
+}
+#TreePage .ant-row{
+    margin-bottom: 15px;
+}
+#TreePage .ant-table-tbody > tr > td:nth-of-type(7){
+    position: relative;
+    /* text-indent:1.2vw; */
+}
+#TreePage .link23{
+    width: 100%;
+    padding: 8px 0;
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(55,75,90,1);
+}
+#TreePage .point{
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+}
+

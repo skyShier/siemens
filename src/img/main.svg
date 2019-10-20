@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>概况</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0003 16 0.0003 16 15.9913 0 15.9913"></polygon>
+    </defs>
+    <g id="page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-36.000000, -82.000000)">
+            <g id="左侧">
+                <g id="首页" transform="translate(0.000000, 60.000000)">
+                    <g id="概况" transform="translate(36.000000, 22.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M8.9058,0.3325 C8.4168,-0.1105 7.6708,-0.1105 7.1808,0.3325 L0.2078,6.9485 C-0.0532,7.1885 -0.0712,7.5955 0.1698,7.8565 C0.4068,8.1155 0.8068,8.1355 1.0698,7.9035 L1.1798,7.7985 L1.1798,14.7035 C1.1798,15.4145 1.7548,15.9905 2.4658,15.9915 L2.4668,15.9915 L6.2108,15.9915 L6.2108,12.1205 C6.2108,11.6205 6.6148,11.2155 7.1158,11.2145 L7.1168,11.2145 L8.8788,11.2145 C9.3788,11.2145 9.7848,11.6195 9.7848,12.1195 L9.7848,12.1205 L9.7848,15.9915 L13.6178,15.9915 C14.3288,15.9915 14.9058,15.4165 14.9058,14.7065 L14.9058,14.7035 L14.9058,7.8825 C15.1908,8.1415 15.5968,8.1215 15.8338,7.8565 C16.0728,7.5935 16.0518,7.1865 15.7878,6.9495 L15.7878,6.9485 L8.9058,0.3325 Z" id="Fill-1" fill="#738796" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

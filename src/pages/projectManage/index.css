@@ -1,0 +1,170 @@
+/* 标题栏内容的样式 */
+#ProjectManage .pageName{
+    font-size: 1.6vw;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid rgb(226, 226, 226);
+    padding-bottom: 15px;
+}
+/* 头部的搜索和新增---中间弹出 */
+/* search */
+#ProjectManage .search{
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    display: flex;
+    position: relative;
+    left: -32px;
+    cursor: pointer;
+}
+#ProjectManage .userHead{
+    width: 100%;
+    height: 32px;
+    margin: 0 0 1vw 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+}
+#ProjectManage .userText{
+    font-size:1.1vw;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(35,55,70,1);
+    line-height:20px;
+}
+#ProjectManage .ant-row-flex-center{
+    justify-content: flex-start;
+}
+#ProjectManage .ant-row-flex{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: 16px;
+}
+/* 头部右侧按钮 */
+#ProjectManage .ant-btn{
+    margin-left: 10px;
+}
+#ProjectManage .ant-btn:focus{
+    color: rgba(0, 0, 0, 0.65);
+    border-color: #d9d9d9;
+}
+/* 新增项目--右侧弹出 */
+#ProjectManage .ant-drawer-title{
+    font-size:1.2vw;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(35,55,70,0.85);
+}
+#ProjectManage .ant-drawer-header{
+    padding: 13px 20px;
+}
+#ProjectManage .ant-drawer-content-wrapper{
+    width: 37.2vw !important;
+}
+#ProjectManage .ant-drawer-body{
+    padding: 30px 0 0 41px;
+}
+/* table */
+#ProjectManage .ant-table-tbody > tr > td:nth-of-type(1){
+    color:#006486;
+}
+#ProjectManage .ant-table-tbody > tr > td:nth-of-type(6){
+    position: relative;
+}
+/* upload */
+#ProjectManage .ant-upload-list-item{
+    width: 133px;
+}
+#ProjectManage .ant-upload-list{
+    position: relative;
+    margin-left: -240px;
+    top: -60px;
+}
+#ProjectManage .ant-upload{
+    position: relative;
+    z-index: 999;
+}
+.ant-form-item-control{
+    line-height: 32px !important;
+}
+.drawerStyle{
+    font-size: 1.1vw;
+}
+.drawerStyle .dright,.drawerStyle .drightn{
+    /* width:110px !important; */
+    text-align: right;
+    margin-right: 10px;
+    line-height: 32px !important;
+}
+.drawerStyle .right,.drawerStyle .rightn{
+    text-align: right;
+    right: 10px;
+    line-height: 32px;
+}
+.drawerBoxh{
+    display: flex;
+}
+.drawerBox{
+    display: flex;
+    margin-top: 16px;
+}
+.modalList .right{
+    text-align: right;
+    line-height: 32px;
+}
+.drawerStyle .right:before{
+    content:"*";
+    color: #E13C43;
+}
+#ProjectManage .link2{
+    width: 100%;
+    padding: 8px 0;
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(55,75,90,1);
+}
+#ProjectManage .point{
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+}
+/* 被选中的表格行的样式 */
+#ProjectManage .clickRowStyl{
+  background-color: #f3f3f3;
+}
+/* .ant-table-tbody>.clickRowStyl:hover>td{
+    background-color #00b4ed
+} */
+
+/* 表格排序图标/筛选 */
+#ProjectManage .ant-table-thead > tr > th .ant-table-column-sorter{
+    left:70px !important;
+}
+#ProjectManage .ant-table-thead > tr > th .anticon-filter, .ant-table-thead > tr > th .ant-table-filter-icon{
+    left:35px !important;
+}
+.errorInfo{
+    position: absolute;
+    line-height: 32px;
+    top: 0;
+    right: 10px;
+    color:red;
+    margin-left:5px;
+    font-size:12px;
+}
+.errorInfot{
+    position: absolute;
+    line-height: 32px;
+    top: 0;
+    right: 35px;
+    color:red;
+    margin-left:5px;
+    font-size:12px;
+}
+.eroProNames,.eroCitys,.eroDates,.eroUsrs,.erojds,.erowds,.eroshare{
+    border: 1px solid red !important;
+}
